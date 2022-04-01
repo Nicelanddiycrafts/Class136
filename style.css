@@ -1,0 +1,38 @@
+#footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-left: 0;
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px ;
+    padding: 10px;
+}
+
+h1{
+    width: 100%;
+    margin-top: 0;
+    padding: 20px !important;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+body{
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+canvas{
+    border: 3px ;
+    margin-top: 60px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 5px 5px 20px white;}
+    to{box-shadow: 5px 5px 20px orange;}
+}
